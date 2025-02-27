@@ -25,9 +25,9 @@ Este repositório contém um jogo de aventura simples implementado em JavaScript
 
 ## Tecnologias Usadas
 
-HTML: Estruturação da página.
-CSS: Estilização básica (caso tenha).
-JavaScript: Lógica do jogo e interatividade.
+- **HTML**: Estruturação da página.
+- **CSS** : Estilização básica (caso tenha).
+- **JavaScript** : Lógica do jogo e interatividade.
 
 ## Instalação
 
