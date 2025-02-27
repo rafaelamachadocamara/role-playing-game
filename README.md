@@ -33,4 +33,4 @@ Este repositório contém um jogo de aventura simples implementado em JavaScript
 
 1. Clone o repositório para sua máquina local:
    ```bash
-   git clone https://github.com/rafaelamachadocamara/role-playing-game
+   git clone https://github.com/rafaelamachadocamara/role-playing-game.git
