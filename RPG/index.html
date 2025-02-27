@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>RPG - Dragon Repeller</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="game-title">Dragon Repeller</h1>
+        </header>
+
+        <div id="game">
+            <div id="stats">
+                <div class="stat-item">
+                    <span class="stat-emoji">⭐</span>
+                    <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-emoji">❤️</span>
+                    <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-emoji">🪙</span>
+                    <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
+                </div>
+            </div>
+
+            <div id="monsterStats">
+                <div class="monster-header">
+                    <span class="stat-emoji">👹</span>
+                    <span class="stat">Monster: <strong><span id="monsterName"></span></strong></span>
+                </div>
+                <div class="monster-health">
+                    <span class="stat">Health: <strong><span id="monsterHealth"></span></strong></span>
+                    <div class="health-bar">
+                        <div class="health-bar-fill"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="text-area">
+                <div id="text">
+                    Welcome to Dragon Repeller. You must defeat the dragon that is preventing people from leaving the
+                    town. You
+                    are in the town square. Where do you want to go? Use the buttons below.
+                </div>
+            </div>
+
+            <div id="controls">
+                <button id="button1" class="action-button">Go to store</button>
+                <button id="button2" class="action-button">Go to cave</button>
+                <button id="button3" class="action-button">Fight dragon</button>
+            </div>
+        </div>
+
+        <footer>
+            <p>Dragon Repeller RPG &copy; 2025</p>
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
